@@ -1,6 +1,6 @@
 <template>
   <div class="my-name">
-    <h1>Hello, my name is Tianyu Niu</h1>
+    <h1>My name is Tianyu Niu!</h1>
   </div>
 </template>
 
@@ -17,7 +17,7 @@ export default {
 }
 
 h1 {
-  color: #42b983; /* Vue green color */
+  color: #42b983;
   font-family: 'Roboto', sans-serif;
 }
 </style>
