@@ -1,14 +1,17 @@
+<script setup>
+defineProps({
+  msg: {
+    type: String,
+    required: true
+  }
+})
+</script>
+
 <template>
   <div class="my-name">
     <h1>My name is Tianyu Niu!</h1>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'MyName'
-}
-</script>
 
 <style scoped>
 .my-name {
